@@ -1,20 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/styles/styles.css" />
+    <link rel="stylesheet" href="assets/styles/semantic.css" />
+    <link rel="stylesheet" href="assets/styles/icons.svg" />
+    <link rel="stylesheet" href="assets/styles/fullpage.css" />
+
+    <!--
+    <link href="/assets/semantic.css" rel="stylesheet" /> -->
     <title> Gorilla Security </title>
+
 </head>
+
 <body>
 
-    Before
-    <br>
+    <div class="ui secondary fixed stackable menu" style="background: #141d26; box-shadow: 2px 1px 2px #141d26">
+        <a class="ui header" style="margin: 10px; font-size: 30px; color: #fff;"> Gorilla Security </a>
 
-    <%- body %>
+        <a class="active item" href="#section_1" style="color: #FFF;"> Home </a>
 
-    <br>
-    After
-    
+        <a class="item" href="#section_2" style="color: #FFF;"> Services </a>
+
+        <a class="item" href="#section_3" style="color: #FFF;"> About Us </a>
+
+        <a class="item" href="#section_4" style="color: #FFF;"> Contact Us </a>
+
+        <div class="right menu">     
+            <a class="ui item">
+                <div class="ui button" style="background-color: #c51f5d; color: #FFF"> Client Login </div>
+            </a>
+        </div>
+
+    </div>
+
+    <div id="fullPage">
+        <div class="section s1">
+
+            <div class="slide">
+
+                <div class="container" style="position: relative; text-align: center; color: #FFF">
+                    <img src="/assets/images/pic_3.jpg" style="width: 100%;">
+                    <div class="centered"
+                        style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%)">
+                        <a class="ui huge button" href="#section_4" style="background-color: #c51f5d; color: #FFF">
+                            Free Consultations
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide">
+
+                <div class="container" style="position: relative; text-align: center; color: #FFF">
+                    <img src="/assets/images/pic_5.jpg" style="width: 100%;">
+                    <div class="centered"
+                        style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%)">
+                        <a class="ui huge button" href="#section_4" style="background-color: #c51f5d; color: #FFF">
+                            Free Consultations
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="container" style="position: relative; text-align: center; color: #FFF">
+                    <img src="/assets/images/pic_2.jpg" style="width: 100%;">
+                    <div class="centered"
+                        style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%)">
+                        <a class="ui huge button" href="#section_4" style="background-color: #c51f5d; color: #FFF">
+                            Free Consultations
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="slide">
+                <div class="container" style="position: relative; text-align: center; color: #FFF">
+                    <img src="/assets/images/pic_3.jpg" style="width: 100%;">
+                    <div class="centered"
+                        style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%)">
+                        <a class="ui huge button" href="#section_4" style="background-color: #c51f5d; color: #FFF">
+                            Free Consultations
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="container" style="position: relative; text-align: center; color: #FFF">
+                    <img src="/assets/images/pic_5.jpg" style="width: 100%;">
+                    <div class="centered"
+                        style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%)">
+                        <a class="ui huge button" href="#section_4" style="background-color: #c51f5d; color: #FFF">
+                            Free Consultations
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="section s2">
+            <h2> Second Section </h2>
+        </div>
+
+        <div class="section s3">
+            <div class="ui stackable grid">
+                    <div class="six wide column">
+                        <div class="about" style="margin-top: 90px; margin-left: 10px;">
+                            <h2 style="color: #141d26;">  Gorilla Security and Logistics <br> Company Limited </h2>
+                        </div>
+                        
+                    </div>
+
+                    <div class="ten wide column" style="margin: 0px;">
+                        <div class="ui card" style="width: 100%; height: 650px">
+
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <div class="section s4">
+            <h2> Fourth Section </h2>
+        </div>
+    </div>
+
+
+    <script src="assets/script/semantic.js"></script>
+    <script src="assets/script/fullpage.js"></script>
+    <script src="assets/script/script.js"></script>
+
 </body>
+
 </html>
